@@ -1,0 +1,84 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+form {
+    margin: 0 auto;
+    text-align: center;
+
+}
+h1{
+    color: white;
+    font-family: 'Cinzel Decorative', cursive;
+}
+.panic{
+    font-family: 'Special Elite', cursive;
+    color: black;
+}
+button {
+    width: 70%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+#panicbtn{
+    font-family: 'Special Elite', cursive;
+    background-color: #2DC800;
+}
+#worrybtn{
+    font-family: 'Flavors', cursive;
+    background-color: #36F200;
+}
+#sleepbtn{
+    font-family: 'Cherry Swash', cursive;
+    background-color: #52FF20;
+}
+#selfbtn{
+    font-family: 'Oleo Script', cursive;
+    background-color: #6FFF44;
+}
+#workbtn{
+    font-family: 'Emilys Candy', cursive;
+    background-color: #8FFF6F;
+}
+.sleepbtn2{
+    font-family: 'Cherry Swash', cursive;
+}
+.home{
+    background-image: url("../images/archway.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.insomnia{
+    background-image: url("../images/space.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.mindworkout{
+    background-image: url("../images/nettles.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.panicattack{
+    background-image: url("../images/clouds.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.selfesteem{
+    background-image: url("../images/scarves.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.worry{
+    background-image: url("../images/cieling.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
