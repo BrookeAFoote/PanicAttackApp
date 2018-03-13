@@ -1,11 +1,10 @@
 (function(){
 var homeComponent = {
 templateUrl: "partials/home.html",
-controller: function(relaxService, $location){
+controller: function($location){
     var vm = this;
     vm.seePanic = function(){
         $location.path("/panicAttack");
-        
     }
     vm.seeSleep = function(){
         $location.path("/insomnia")

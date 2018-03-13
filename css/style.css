@@ -8,12 +8,24 @@ form {
 
 }
 h1{
-    color: white;
     font-family: 'Cinzel Decorative', cursive;
 }
-.panic{
+#panic{
     font-family: 'Special Elite', cursive;
-    color: black;
+}
+#insomnia{
+    color: white;
+    font-family: 'Cherry Swash', cursive;
+}
+#workout{
+    font-family: 'Emilys Candy', cursive;
+}
+#self{
+    font-family: 'Oleo Script', cursive;
+}
+#worry{
+    font-family: 'Flavors', cursive;
+    color: whitesmoke;
 }
 button {
     width: 70%;
@@ -23,62 +35,71 @@ button {
     font-size: 20px;
     border-radius: 20px;
 }
-#panicbtn{
+#panicbtn, .panicbtn2{
     font-family: 'Special Elite', cursive;
     background-color: #2DC800;
 }
-#worrybtn{
+#worrybtn, .worrybtn2{
     font-family: 'Flavors', cursive;
     background-color: #36F200;
 }
-#sleepbtn{
+#sleepbtn, .sleepbtn2{
     font-family: 'Cherry Swash', cursive;
     background-color: #52FF20;
 }
-#selfbtn{
+#selfbtn, .selfbtn2{
     font-family: 'Oleo Script', cursive;
     background-color: #6FFF44;
 }
-#workbtn{
+#workbtn, .workbtn2{
     font-family: 'Emilys Candy', cursive;
     background-color: #8FFF6F;
-}
-.sleepbtn2{
-    font-family: 'Cherry Swash', cursive;
 }
 .home{
     background-image: url("../images/archway.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    width: 100%;
+    min-height: 800px;
 }
 .insomnia{
     background-image: url("../images/space.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    width: 100%;
+    min-height: 800px;
 }
 .mindworkout{
     background-image: url("../images/nettles.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    width: 100%;
+    min-height: 800px;
 }
 .panicattack{
     background-image: url("../images/clouds.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    width: 100%;
+    min-height: 800px;
 }
 .selfesteem{
     background-image: url("../images/scarves.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    width: 100%;
+    min-height: 800px;
 }
 .worry{
-    background-image: url("../images/cieling.jpg");
+    background-image: url("../images/meteor.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    width: 100%;
+    min-height: 800px;
 }

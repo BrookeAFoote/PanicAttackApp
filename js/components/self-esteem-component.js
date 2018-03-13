@@ -1,9 +1,12 @@
 (function(){
     var selfEsteemComponent = {
     templateUrl: "partials/self-esteem.html",
-    controller: function(){
+    controller: function(relaxService){
         var vm = this;
-        console.log("working")
+        relaxService.getQuote()
+        .then(function(data){
+            vm.data = data;
+        })
     }//controller
     };//selfesteemcomponent
     
