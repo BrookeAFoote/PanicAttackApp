@@ -1,4 +1,4 @@
-body{
+*{
     padding: 0;
     margin: 0;
 }
@@ -14,7 +14,7 @@ h1{
     font-family: 'Special Elite', cursive;
 }
 #insomnia{
-    color: white;
+    color: whitesmoke;
     font-family: 'Cherry Swash', cursive;
 }
 #workout{
@@ -25,7 +25,6 @@ h1{
 }
 #worry{
     font-family: 'Flavors', cursive;
-    color: whitesmoke;
 }
 button {
     width: 70%;
@@ -96,10 +95,23 @@ button {
     min-height: 800px;
 }
 .worry{
-    background-image: url("../images/meteor.jpg");
+    background-image: url("../images/lighthouse.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     width: 100%;
     min-height: 800px;
 }
+@media only screen and (min-width: 768px){
+   .home, .insomnia, .mindworkout, .panicattack, .selfesteem, .worry{
+       min-height: 1400px;
+   }
+   body{
+    padding-top: 100px;
+   }
+}
+@media only screen and (min-width: 992px){
+/* button:hover{
+    text-decoration: underline;
+} */
+}/*end*/
