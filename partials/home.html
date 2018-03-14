@@ -1,9 +1,19 @@
 
-<form>
+<form id="btn">
 <h1>I need help with...</h1>
     <button id="panicbtn" ng-click="$ctrl.seePanic()">Panic Attack</button>
     <button id="worrybtn" ng-click="$ctrl.seeWorry()">Worry</button>
     <button id="sleepbtn" ng-click="$ctrl.seeSleep()">Insomina</button>
     <button id="selfbtn" ng-click="$ctrl.seeSelf()">Self-Esteem</button>
     <button id="workbtn" ng-click="$ctrl.seeWork()">Mind Workout</button>
+</form>
+<form id="logos">
+    <h1>I need help with...</h1>
+    <img id="pancipic" src="../images/panicMonster.jpg" ng-click="$ctrl.seePanic()">
+    <div id="grid">
+    <img id="worrypic" src="../images/worryMonster.jpg" ng-click="$ctrl.seeWorry()">
+    <img id="sleeppic" src="../images/sleepMonster.jpg" ng-click="$ctrl.seeSleep()">
+    <img id="workpic" src="../images/workMonster.jpg" ng-click="$ctrl.seeWork()">
+    <img id="selfpic" src="../images/selfMonster.jpg" ng-click="$ctrl.seeSelf()">
+    </div>
 </form>
