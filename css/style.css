@@ -40,6 +40,20 @@ button {
     font-size: 20px;
     border-radius: 20px;
 }
+a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    width: 70%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: grey outset 2px;
+}
 #panicbtn, .panicbtn2{
     font-family: 'Special Elite', cursive;
     background-color: #2DC800;
@@ -118,6 +132,16 @@ button {
    h2{
        margin: 0px 10px 10px 10px;
    }
+   #worrybtn{
+       margin-left: 30px;
+   }
+   #sleepbtn{
+       margin-left: 40px;
+   }
+   #selfbtn{
+       margin-left: 30px;
+   }
+   
 }
 @media only screen and (min-width: 992px){
     body{
